@@ -8,6 +8,8 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+html, body {
+  font-family: Helvetica, sans-serif;
+}
 </style>
