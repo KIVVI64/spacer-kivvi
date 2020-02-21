@@ -34,6 +34,7 @@ export default {
     };
   },
   methods: {
+    // eslint-disable-next-line func-names
     handleInput: debounce(function () {
       console.log(this.searchValue);
       axios.get(`${API}/search?q=${this.searchValue}&media_type=image`)
