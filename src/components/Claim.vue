@@ -1,6 +1,6 @@
 <template>
   <div class="claimwrapper">
-    <h1 class="claim"><b>SPACER</b></h1>
+    <h1 class="claim"><b>SPACER <small>v 0.1.0</small></b></h1>
     <p class="sub-claim">
       Rozpocznij swoją podróż przez wspaniałą galaktykę i odkrywaj miejsca o których nawet nie
       słyszałeś.
