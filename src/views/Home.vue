@@ -57,17 +57,18 @@ export default {
     },
     // eslint-disable-next-line func-names
     handleInput: debounce(function () {
-      console.log(`Wyszukiwanie: ${this.searchValue}`);
+      // console.log(`Wyszukiwanie: ${this.searchValue}`);
       this.loading = true;
       axios.get(`${API}/search?q=${this.searchValue}&media_type=image`)
         .then((response) => {
-          console.log(response);
+          // console.log(response);
           this.resoults = response.data.collection.items;
           this.loading = false;
           this.step = 1;
         })
+        // eslint-disable-next-line no-unused-vars
         .catch((error) => {
-          console.log(error);
+          // console.log(error);
         });
     }, 900),
   },
