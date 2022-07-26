@@ -1,11 +1,12 @@
 <template>
   <div class="claimwrapper">
-    <h1 class="claim"><b>SPACER <small>v 0.1.0</small></b></h1>
+    <h1 class="claim"><b>SPACER</b></h1>
     <p class="sub-claim">
       Rozpocznij swoją podróż przez wspaniałą galaktykę i odkrywaj miejsca o których nawet nie
       słyszałeś.
     </p>
     <p class="sub-claim">Wpisz cokolwiek związanego z kosmosem.</p>
+    <div class="credits">Projekt aplikacji: Hello Roman! <br> Wykonanie: Marcel Maruszak <br> Dzięki za świtny kurs!</div>
   </div>
 </template>
 
@@ -16,6 +17,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.credits {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 300px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  background-color: white;
+}
+
 .claimwrapper {
   display: flex;
   flex-direction: column;
